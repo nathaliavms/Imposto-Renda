@@ -19,7 +19,10 @@ Imprima o texto "R$" seguido de um espaço e do valor total devido de Imposto de
 # Exemplos de Saída
 R$ 80.36
 # Exemplos de Entrada 
-1701.12 Isento
+1701.12 
+# Exemplos de Saída
+Isento
+# Exemplos de Entrada 
 4520.00 
 # Exemplos de Saída
 R$ 355.6
