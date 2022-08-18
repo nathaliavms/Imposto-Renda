@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 
 namespace ImpostoDeRenda
@@ -12,7 +12,6 @@ namespace ImpostoDeRenda
             Calcular calculo = new Calcular(salario);
 
             Console.WriteLine(calculo);
-
         }
     }
 }
