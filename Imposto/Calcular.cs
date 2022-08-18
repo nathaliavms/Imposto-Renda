@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 
 namespace ImpostoDeRenda
@@ -11,7 +11,6 @@ namespace ImpostoDeRenda
         {
             Salario = salario;
         }
-
         private double DescontoImposto()
         {
             double[] faixa1 = new double[] { 0, 2000 };
@@ -35,15 +34,10 @@ namespace ImpostoDeRenda
                 return (Salario - 4500) * 0.28 + 1000 * 0.08 + 1500 * 0.18 ;
             }
         }
-
         public override string ToString()
         {
             var desconto = DescontoImposto();
             return desconto == 0 ? "Isento" : "R$ " + desconto.ToString("F2", CultureInfo.InvariantCulture);
-            
         }
-
     }
-
-   
 }
